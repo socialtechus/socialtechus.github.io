@@ -68,7 +68,7 @@ li {
 
 .jumbotron {
     background: #f1f1f1;
-    background-image: url('../img/jumbo-bg.png');
+    background-image: url('../img/jumbo-bg.');
     background-repeat: no-repeat;
     background-position: right;
     color: #111111;
@@ -138,7 +138,7 @@ li {
 .connect .fa,
 .connect .fas,
 .connect .fab {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     margin-right: 30px;
 }
 
