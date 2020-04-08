@@ -72,6 +72,7 @@ li {
     background-repeat: no-repeat;
     background-position: right;
     color: #111111;
+    margin-bottom: 0;
 }
 
 .jumbotron p.lead {
@@ -117,24 +118,32 @@ li {
 
 /* Connect */
 
+.connect,
+.connect h2,
+.connect .fa,
+.connect .fas,
+.connect .fab,
+.connect a,
+.connect a:visited {
+    color: #ffffff;
+}
+
 .connect {
-    border-bottom: 1px solid #f1f1f1;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     margin-bottom: 40px;
+    background: #111111;
 }
 
 .connect .fa,
 .connect .fas,
 .connect .fab {
     font-size: 2.5rem;
-    margin-bottom: 30px;
     margin-right: 30px;
-    margin-top: 30px;
 }
 
-.connect a,
-.connect a:visited {
-    color: #111111;
+.connect h2 {
+    padding-bottom: 20px;
 }
 
 /* Buttons */
