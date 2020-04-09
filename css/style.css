@@ -27,7 +27,7 @@ h6,
 a,
 a:visited,
 a:hover {
-    color: #007bff;
+    color: #111111;
 }
 
 hr {
@@ -68,16 +68,22 @@ li {
 
 .jumbotron {
     background: #f1f1f1;
-    background-image: url('../img/jumbo-bg.');
+    background-image: url('../img/jumbo-bg.png');
     background-repeat: no-repeat;
     background-position: right;
     color: #111111;
-    margin-bottom: 0;
 }
 
 .jumbotron p.lead {
     color: #111111;
     padding: 2rem 0;
+}
+
+/* About */
+
+.about {
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 /* Footer */
@@ -93,6 +99,12 @@ li {
     font-size: 1rem;
     margin: 0;
     padding: .25em 0;
+}
+
+.footer a,
+.footer a:visited,
+.footer a:hover {
+    text-decoration: underline;
 }
 
 /* Partners */
