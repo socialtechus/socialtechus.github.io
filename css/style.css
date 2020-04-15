@@ -196,16 +196,10 @@ ul {
 
 .btn-primary a,
 .btn-primary a:visited {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
-.btn-primary {
-    background: #111111;
-    border: 1px solid #111111;
-    color: #ffffff;
-}
-
-.btn-primary:hover {
+.btn-primary, .btn-primary:visited, .btn-primary:hover {
     background: #111111;
     border: 1px solid #111111;
     color: #ffffff;
