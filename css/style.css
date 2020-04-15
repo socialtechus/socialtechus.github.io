@@ -23,7 +23,11 @@ h6,
     font-weight: 600;
 }
 
-h2, h3 {
+h2 {
+    padding-top: 1.5rem;
+}
+h2,
+h3 {
     padding-bottom: 1rem;
 }
 
@@ -34,14 +38,14 @@ h4 {
 a,
 a:visited,
 a:hover {
-    color: #111111;
+    color: #743193;
     text-decoration: underline;
 }
 
 hr {
-    margin-bottom: 40px;
-    margin-top: 20px;
-    border-color: #212121;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-color: #471e5a;
     border-width: 1px;
 }
 
@@ -96,27 +100,36 @@ ul {
     background-image: url('../img/jumbo-bg.png');
     background-repeat: no-repeat;
     background-position: right;
+    background: #743193;
+    background: rgb(116, 49, 147);
+    background: linear-gradient(90deg, rgba(116, 49, 147, 1) 25%, rgba(101, 43, 128, 1) 50%);
     color: #111111;
+    color: #ffffff;
+    border-radius: 0;
 }
 
 .jumbotron p.lead {
     color: #111111;
+    color: #ffffff;
     padding: 2rem 0;
 }
 
 /* About */
 
 .about {
-    padding-bottom: 30px;
     padding-top: 10px;
+}
+
+.about p {
+    font-size: 1.25rem;
 }
 
 /* Footer */
 
 .footer {
-    border-top: 1px solid #f1f1f1;
-    margin-top: 40px;
-    padding-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-bottom: 0px;
     padding-top: 40px;
 }
 
@@ -167,9 +180,12 @@ ul {
 
 .connect {
     padding-bottom: 60px;
-    padding-top: 40px;
-    margin-bottom: 40px;
-    background: #111111;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background: rgb(116, 49, 147);
+    background: linear-gradient(90deg, rgba(116, 49, 147, 1) 25%, rgba(101, 43, 128, 1) 50%);
+    color: #ffffff;
 }
 
 .connect .fa,
@@ -187,6 +203,7 @@ ul {
 
 .play {
     background: #f1f1f1;
+    background: #f7f0fa;
     border-radius: 5px;
     margin-bottom: 4rem;
     padding: 3rem 3rem;
@@ -199,8 +216,10 @@ ul {
     color: #ffffff !important;
 }
 
-.btn-primary, .btn-primary:visited, .btn-primary:hover {
-    background: #111111;
-    border: 1px solid #111111;
+.btn-primary,
+.btn-primary:visited,
+.btn-primary:hover {
+    background: #471e5a;
+    border: 1px solid #471e5a;
     color: #ffffff !important;
 }
