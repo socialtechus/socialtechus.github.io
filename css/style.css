@@ -202,5 +202,5 @@ ul {
 .btn-primary, .btn-primary:visited, .btn-primary:hover {
     background: #111111;
     border: 1px solid #111111;
-    color: #ffffff;
+    color: #ffffff !important;
 }
