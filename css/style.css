@@ -1,7 +1,7 @@
 body {
     color: #111111;
     font-family: 'Lato', sans-serif;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 img {
@@ -21,6 +21,20 @@ h6,
 .display-4 {
     color: #111111;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    padding-bottom: 1rem;
+}
+
+h3 {
+    border-top: 1px solid #f1f1f1;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+h4 {
     font-weight: 400;
 }
 
@@ -28,18 +42,33 @@ a,
 a:visited,
 a:hover {
     color: #111111;
+    text-decoration: underline;
 }
 
 hr {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    border-color: #f1f1f1;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-color: #212121;
     border-width: 1px;
 }
 
 p,
 li {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+}
+
+ul {
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+
+/* Text */
+
+.text-secondary {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-bottom: .5rem;
 }
 
 /* Navbar */
@@ -53,6 +82,7 @@ li {
 .navbar-header a:visited,
 .navbar-header a:hover {
     color: #111111;
+    text-decoration: none;
 }
 
 .navbar-brand {
