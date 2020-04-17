@@ -60,6 +60,12 @@ ul {
     padding-top: .5rem;
 }
 
+/* Navbar */
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
 /* News */
 
 .news h3,
