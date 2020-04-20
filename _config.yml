@@ -1,0 +1,62 @@
+# Site
+name: 'Social Tech Collaborative'
+description: 'Working together to transform the technology that powers social services.'
+logo: 'assets/img/avatar.png'
+logo_full: 'assets/img/avatar.png'
+favicon: 'assets/img/favicon/favicon.ico'
+baseurl: ''
+url: 'https://socialtech.us'
+email: 'socialtech@alluma.org'
+
+include: ["_pages"]
+permalink: /:title/
+future: true
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 20
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [
+  _posts/2020-01-22-template.md,
+  README.md,
+  package.json,
+  grunt.js,
+  Gruntfile.js,
+  Gruntfile.coffee,
+  node_modules
+]
+
+# News collection
+collections: 
+  news:
+    output: true
+  # collections_dir: _news
+  # output: true

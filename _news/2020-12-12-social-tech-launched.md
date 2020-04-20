@@ -1,0 +1,9 @@
+---
+headline: Social Tech Collaborative launched!
+---
+
+Example of news item. 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et arcu ligula. Quisque nunc libero, interdum sed sodales vel, gravida id est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur nec feugiat urna. Nulla lobortis dolor magna. Curabitur tristique sit amet elit vel ultricies. Phasellus ac lorem at elit dapibus interdum. Aliquam tortor neque, semper eu bibendum eget, bibendum non urna. In quis lectus sit amet odio bibendum facilisis. Mauris convallis feugiat ante et cursus. Curabitur vel purus ante. Curabitur eget pharetra sem. Cras interdum blandit lacus et euismod.
+
+Vivamus tortor purus, faucibus ut orci at, suscipit euismod felis. Proin porta urna justo. Suspendisse ornare purus eget urna consectetur bibendum. Maecenas aliquet turpis nibh, sed suscipit urna aliquet id. Sed a magna condimentum, facilisis tellus sed, dignissim lorem. Etiam in metus maximus, ullamcorper felis non, rutrum elit. Fusce in metus id dolor ultricies efficitur. In blandit nisl in suscipit sodales. Donec cursus, est sit amet sollicitudin hendrerit, lectus odio faucibus nisi, vel vulputate mi dolor egestas est. Praesent mi justo, sodales in mauris a, suscipit accumsan urna. Nulla facilisi. Etiam vel arcu volutpat, facilisis purus ut, imperdiet arcu. Vestibulum sed auctor nunc. In laoreet nisi condimentum elementum tempor. Duis ut mi quis est scelerisque malesuada. Suspendisse vulputate tellus vel aliquam consequat.
