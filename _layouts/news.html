@@ -8,6 +8,10 @@ layout: default
                 <div class="col-lg-8">
                     <h1>{{page.title}}</h1>
                     <p class="lead">{{page.description}}</p>
+                    <p class="byline">By <a href="{{page.author_link}}">
+                            {{ page.author }}
+                        </a> &middot; {{ page.date | date: "%m/%d/%Y" }}
+                    </p>
                 </div>
                 <div class="col-lg-4">
                 </div>
@@ -18,6 +22,9 @@ layout: default
         <div class="row">
             <div class="col-lg-8">
                 {{ content }}
+                <div class="bio">
+                    <p>{{ page.author_bio }}</p>
+                </div>
             </div>
             <div class="col-lg-4">
             </div>
@@ -28,3 +35,4 @@ layout: default
             </div>
         </div>
     </div>
+</main>

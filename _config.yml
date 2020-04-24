@@ -8,6 +8,10 @@ baseurl: ''
 url: 'https://socialtech.us'
 email: 'socialtech@alluma.org'
 
+include: ["_news"]
+permalink: /:title/
+future: true
+
 include: ["_pages"]
 permalink: /:title/
 future: true
