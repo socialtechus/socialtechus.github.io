@@ -33,6 +33,11 @@ h3 {
     padding-bottom: 1rem;
 }
 
+h3 {
+    padding-top: 1rem;
+
+}
+
 a,
 a:visited,
 a:hover {
@@ -99,14 +104,6 @@ main li {
     border-top: 1px solid #f1f1f1;
     margin-top: 1.5em;
     padding-top: 1em;
-}
-
-/* Alert */
-
-.alert-secondary {
-    background-color: #f1f1f1;
-    border-color: #f1f1f1;
-    color: #111111;
 }
 
 /* Text */
@@ -218,11 +215,8 @@ main li {
 
 .connect,
 .connect h2,
-.connect .fa,
-.connect .fas,
-.connect .fab,
-.connect a,
-.connect a:visited {
+.follow a,
+.follow a:visited {
     color: #111111;
 }
 
@@ -231,19 +225,14 @@ main li {
     padding-top: 20px;
     margin-bottom: 20px;
     margin-top: 40px;
-    background: rgb(116, 49, 147);
     background: #f1f1f1;
 }
 
 .connect .fa,
 .connect .fas,
 .connect .fab {
-    font-size: 2.75rem;
-    margin-right: 30px;
-}
-
-.connect h2 {
-    padding-bottom: 20px;
+    font-size: 2.5rem;
+    margin-right: 1em;
 }
 
 /* Play */
