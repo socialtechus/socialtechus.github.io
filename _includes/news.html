@@ -1,0 +1,11 @@
+<div class="news">
+    <h2>Latest</h2>
+    {% for news_item in site.news %}
+    <a href="{{site.baseurl}}{{news_item.url}}">
+        <h3>{{ news_item.title }}</h3>
+    </a>
+    <p>
+        {{ news_item.date | date: "%m/%d/%Y" }}</p>
+    <p>{{ news_item.description | strip_html | truncatewords:25 }}</p>
+    {% endfor %}
+</div>
