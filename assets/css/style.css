@@ -292,3 +292,8 @@ main li {
     color: #ffffff !important;
     text-decoration: none;
 }
+
+/* accessibility */
+#content:focus { 
+    outline: none; 
+}
