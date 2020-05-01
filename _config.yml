@@ -17,12 +17,12 @@ permalink: /:title/
 future: true
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
- 
+
 # Defaults
 defaults:
 
@@ -31,14 +31,14 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      
+
   # all pages
   - scope:
       path: "_pages"
     values:
       layout: page
-      
-      
+
+
 # Syntax
 markdown: kramdown
 highlighter: rouge
@@ -46,6 +46,10 @@ highlighter: rouge
 # Pagination
 paginate: 20
 
+# Twitter cards
+twitter:
+  username: SocialTechUs
+  card: 'Working together to transform the technology that powers social services.'
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [
@@ -59,7 +63,7 @@ exclude: [
 ]
 
 # News collection
-collections: 
+collections:
   news:
     output: true
   # collections_dir: _news
