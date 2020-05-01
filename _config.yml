@@ -49,7 +49,12 @@ paginate: 20
 # Twitter cards
 twitter:
   username: SocialTechUs
-  card: 'Working together to transform the technology that powers social services.'
+  card: 'Working to transform social services tech.'
+
+  # Facebook cards
+  facebook:
+  publisher: https://www.facebook.com/socialtechus
+
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [
