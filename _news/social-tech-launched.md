@@ -40,4 +40,4 @@ With technology, the diverse sectors that provide basic support, education, and 
 
 Nonprofit organizations who provide technology solutions and services are working with state and local agencies and community-based organizations to enable the adoption of best practices common in the commercial technology sector and appropriate for the public sector. These practices drive processes and IT systems to be more person-centric, user-friendly, efficient, and outcome driven.
 
-The Social Services Response Playbook (COVID-19) is a compilation of these best practices and is designed to provide practical and timely guidance to local and state agencies, and community-based organizations, as they rise to meet the overwhelming demand for social services.
+The Social Tech Playbook for COVID-19 Response is a compilation of these best practices and is designed to provide practical and timely guidance to local and state agencies, and community-based organizations, as they rise to meet the overwhelming demand for social services.
