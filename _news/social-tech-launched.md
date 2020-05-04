@@ -10,16 +10,6 @@ date: 2020-5-4
 
 In the wake of immediate steps taken to protect public health during the COVID-19 pandemic, social service agencies have had to quickly change business operations in order to protect their staff, while still allowing them to provide help and support, as well as implement the new flexibilities in policy and procedures provided by changes in federal, state, and local policy.
 
-We believe:
-
-* All people should be able to apply online for the public services and support they need from any location at any time of day.
-
-* All people should have access to basic needs, equity, opportunity, and dignity in experience of seeking help and support
-
-* All people have access to support and services when they need it.
-
-* Getting help should be quick, simple, and dignified.
-
 ## The challenge
 
 As a result of the need to protect public health during the COVID-19 pandemic, we face an immediate, unprecedented dilemma: A significant increase in demand for basic needs at a time when social service agencies are struggling to maintain operations during social distancing directives.
