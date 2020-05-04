@@ -1,11 +1,11 @@
 ---
 layout: news
 title: Transforming the way technology powers social services
-description: 
+description:
 author: Social Tech Collaborative
 author_link: https://socialtech.us
 author_bio: The Social Tech Collaborative is working to transform the way technology powers social services. <a href="/about">Learn more.</a>
-date: 2020-4-23
+date: 2020-5-4
 ---
 
 In the wake of immediate steps taken to protect public health during the COVID-19 pandemic, social service agencies have had to quickly change business operations in order to protect their staff, while still allowing them to provide help and support, as well as implement the new flexibilities in policy and procedures provided by changes in federal, state, and local policy.
