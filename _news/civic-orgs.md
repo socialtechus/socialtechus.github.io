@@ -15,7 +15,6 @@ The Social Tech Collaborative is a new effort by a group of nonprofit, social im
 </div>
 
 <a href="https://alluma.org">Alluma</a> is a non-profit social enterprise on a bold mission to eliminate the barriers that keep people from connecting to critical help. We create technology solutions for government agencies, community organizations, and others like us who are committed to ensuring economic, social, and physical well-being for all. Powered by policy and technology experts working on the same team to create solutions, Alluma puts the needs of its clients and the people it serves at the center of its focus, merging the practices of human-centric technology and social policy analysis. Since our first project in 1999, we have tackled our work with tenacity and curiosity. That first challenge—improving enrollment in the Children’s Health Insurance Program (CHIP) in California—led us to develop Health-e-App, the first Web- based system in the U.S. that fully automated enrollment into a public coverage program. Since then, we have successfully delivered online people-directed health and human service benefit tools to help health systems, public agencies, and community organizations.
-<br>
 
 <div class="col-lg-3">
 <a href="https://bdtrust.org/"><img src="{{site.url}}/{{site.baseurl}}/assets/img/logos/logo-benefitsdatatrust.png" alt="Benefits Data Trust" title="Benefits Data Trust" class="horiz"></a>
