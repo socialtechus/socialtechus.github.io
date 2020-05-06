@@ -8,7 +8,7 @@ author_bio: The Social Tech Collaborative is working to transform the way techno
 date: 2020-5-4
 ---
 
-The Social Tech Collaborative is a new effort by a group of nonprofit, social impact organizations focused on leveraging technology, policy, design, and data expertise to transform how public-serving institutions deliver and manage social support and services. We work with state, local, and nonprofit agencies across the country to adopt best practices common in the commercial technology sector that are appropriate for the public sector. While our joint work is new, we’re all well-established organizations with many decades of trusted service and leadership under our belts. So, who is the Social tech Collaborative?
+The Social Tech Collaborative is a new effort by a group of nonprofit, social impact organizations focused on leveraging technology to transform how public-serving institutions deliver and manage social support and services. We work with state, local, and nonprofit agencies across the country to adopt best practices common in the commercial technology sector that are appropriate for the public sector. While our joint work is new, we’re all well-established organizations with many decades of trusted service and leadership under our belts. So, who are the organizations that make up the Social Tech Collaborative?
 <br><br>
 
 <div class="col-lg-3">
