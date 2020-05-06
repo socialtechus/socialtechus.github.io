@@ -52,9 +52,9 @@ twitter:
   card: 'Working to transform social services tech.'
 
   # Facebook cards
-  facebook:
+facebook:
+  app_id: 598830250979169
   publisher: https://www.facebook.com/socialtechus
-
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [
