@@ -21,15 +21,14 @@ jobs:
       - name: Write target_url
         run: |
           python .github/write_target_url.py
-      - name: Set env var
-        run: |
-          echo "::set-env name=TARGET_URL::$(cat target_url.txt)" 
+      - id: TARGET_URL
+        run: echo "::set-env name=TARGET_URL::$(cat target_url.txt)" 
       - name: Send message to Slack API
         uses: archive/github-actions-slack@v1.0.2
         with:
           slack-bot-user-oauth-access-token: ${{ secrets.SLACK_BOT_USER_OAUTH_ACCESS_TOKEN }}
           slack-channel: test-slack-previews
-          slack-text: "Website preview at ${{ $TARGET_URL }}"
+          slack-text: "Website preview at ${{ TARGET_URL }}"
           slack-optional-icon_emoji: ":fire:"
       - name: Result from "Send Message"
         run: echo "The result was ${{ steps.notify.outputs.slack-result }}"
