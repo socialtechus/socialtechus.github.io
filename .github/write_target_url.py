@@ -1,7 +1,7 @@
 import requests
 import json
 
-with open("test.json") as file:
+with open("payload.json") as file:
     test = json.load(file)
     
 pr_url = test['pull_request']['url']
