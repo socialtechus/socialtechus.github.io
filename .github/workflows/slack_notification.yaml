@@ -17,7 +17,7 @@ jobs:
         run: pip install requests
       - name: write payload
         run: |
-          cat $GITHUB_EVENT_PATH > payload.json
+          curl ${{ github.event.issue.url }} > payload.json
       - name: write target_url
         run: python .github/write_target_url.py
         env:
