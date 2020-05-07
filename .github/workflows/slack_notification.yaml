@@ -3,6 +3,15 @@ name: slack-notification-with-optional-parameters
 on: [issue_comment, pull_request_review_comment]
 
 jobs:
+  see-payload:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: write payload
+      run: |
+        cat $GITHUB_EVENT_PATH > payload.json
+        head payload.json
+      
   slack-notification-with-optional-parameters:
     if: (github.event.issue.pull_request != null) &&  contains(github.event.comment.body, '/slack-preview')
     runs-on: ubuntu-latest
@@ -17,5 +26,5 @@ jobs:
 #           slack-optional-icon_emoji: ":fire:"
       - name: Result from "Send Message"
         run: echo "The result was ${{ steps.notify.outputs.slack-result }}"
-      - name: Checking event content
-        run: echo "${{ toJSON(github.event.pull_request) }}"
+
+
