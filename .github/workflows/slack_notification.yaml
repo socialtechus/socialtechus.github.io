@@ -9,7 +9,6 @@ jobs:
 
     - name: write payload
       run: |
-#        cat $GITHUB_EVENT_PATH
         curl "${{github.event.issue.url}}" > issue.txt
         cat issue.txt
       
