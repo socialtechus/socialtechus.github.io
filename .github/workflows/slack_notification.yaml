@@ -9,7 +9,8 @@ jobs:
 
     - name: write payload
       run: |
-        cat $GITHUB_EVENT_PATH.issue
+        cat $GITHUB_EVENT_PATH
+        cat ${{github.event.issue}}
       
   slack-notification-with-optional-parameters:
     if: (github.event.issue.pull_request != null) &&  contains(github.event.comment.body, '/slack-preview')
