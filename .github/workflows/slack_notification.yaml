@@ -21,7 +21,7 @@ jobs:
       - name: write target_url
         run: |
           python .github/write_target_url.py
-          echo "::set-env name=TARGET_URL::${{cat target_url.txt}}"
+         
       - name: set env
         uses: pCYSl5EDgo/cat@master
         id: TARGET_URL
