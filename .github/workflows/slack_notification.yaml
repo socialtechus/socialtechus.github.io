@@ -25,4 +25,4 @@ jobs:
         run: echo "::set-env name=TARGET_URL::$(cat target_url.txt)" 
       - name: Send message to Slack API
         run: |
-          curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' ${{ secrets.SLACK_WEBHOOK_TEST}}
+          curl -X POST -H 'Content-type: application/json' --data '{"text":"Website preview at $TARGET_URL"}' ${{ secrets.SLACK_WEBHOOK_TEST}}
