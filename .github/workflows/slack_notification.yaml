@@ -10,7 +10,8 @@ jobs:
     - name: write payload
       run: |
         cat $GITHUB_EVENT_PATH
-        echo "${{github.event.issue.url}}"
+        curl "${{github.event.issue.url}}" > issue.txt
+        cat issue.txt
       
   slack-notification-with-optional-parameters:
     if: (github.event.issue.pull_request != null) &&  contains(github.event.comment.body, '/slack-preview')
