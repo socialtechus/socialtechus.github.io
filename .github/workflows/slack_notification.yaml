@@ -20,12 +20,14 @@ jobs:
           cat $GITHUB_EVENT_PATH > payload.json
       - name: write target_url
         run: python .github/write_target_url.py
+        env:
+          TARGET_URL: cat target_url.py
       - name: Send message to Slack API
         uses: archive/github-actions-slack@v1.0.2
         with:
           slack-bot-user-oauth-access-token: ${{ secrets.SLACK_BOT_USER_OAUTH_ACCESS_TOKEN }}
           slack-channel: test-slack-previews
-          slack-text: ${{ cat target_url.txt }}
+          slack-text: $TARGET_URL
           slack-optional-icon_emoji: ":fire:"
       - name: Result from "Send Message"
         run: echo "The result was ${{ steps.notify.outputs.slack-result }}"
