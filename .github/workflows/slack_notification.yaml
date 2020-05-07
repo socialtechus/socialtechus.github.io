@@ -9,7 +9,7 @@ jobs:
 
     - name: write payload
       run: |
-        curl "${{github.event.pull_request.url}}" > issue.txt
+        curl "${{github.event.issue.pull_request.url}}" > issue.txt
         cat issue.txt
       
   slack-notification-with-optional-parameters:
