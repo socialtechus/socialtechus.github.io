@@ -21,7 +21,7 @@ jobs:
       - name: write target_url
         run: |
           python .github/write_target_url.py
-          echo "::set-env name={TARGET_URL}::{cat target_url.txt}"
+          echo "::set-env name=TARGET_URL::${{cat target_url.txt}}"
           
       - name: Send message to Slack API
         uses: archive/github-actions-slack@v1.0.2
