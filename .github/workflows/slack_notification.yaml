@@ -3,11 +3,6 @@ name: slack-notification-with-optional-parameters
 on: [issue_comment, pull_request_review_comment]
 
 jobs:
-  see-payload:
-    runs-on: ubuntu-latest
-    steps:
-
-      
   slack-notification-with-optional-parameters:
     if: (github.event.issue.pull_request != null) &&  contains(github.event.comment.body, '/slack-preview')
     runs-on: ubuntu-latest
