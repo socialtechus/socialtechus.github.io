@@ -18,4 +18,4 @@ jobs:
       - name: Result from "Send Message"
         run: echo "The result was ${{ steps.notify.outputs.slack-result }}"
       - name: Checking event content
-        run: echo "${{ github.event }}"
+        run: echo "${{ github.event.pull_request.comments }}"
