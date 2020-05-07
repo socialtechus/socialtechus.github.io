@@ -19,9 +19,10 @@ jobs:
         run: |
           curl ${{ github.event.issue.url }} > payload.json
       - name: write target_url
-        run: python .github/write_target_url.py
-        set-env:
-          TARGET_URL: cat target_url.py
+        run: |
+          python .github/write_target_url.py
+          ::set-env name={TARGET_URL}::{cat target_url.txt}
+          
       - name: Send message to Slack API
         uses: archive/github-actions-slack@v1.0.2
         with:
