@@ -32,7 +32,7 @@ jobs:
         with:
           slack-bot-user-oauth-access-token: ${{ secrets.SLACK_BOT_USER_OAUTH_ACCESS_TOKEN }}
           slack-channel: test-slack-previews
-          slack-text: $TARGET_URL
+          slack-text: cat target_url.txt
           slack-optional-icon_emoji: ":fire:"
         env:
           TARGET_URL: ${{ steps.TARGET_URL.outputs.text }}
