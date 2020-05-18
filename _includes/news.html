@@ -2,7 +2,7 @@
     <h2>Latest</h2>
     {% for news_item in site.news %}
     <a href="{{site.baseurl}}{{news_item.url}}">
-        <h3>{{ news_item.title }}</h3>
+        <h4>{{ news_item.title }}</h4>
     </a>
     <p>
         {{ news_item.date | date: "%m/%d/%Y" }}</p>
