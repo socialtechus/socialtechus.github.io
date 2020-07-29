@@ -5,16 +5,13 @@ description: The Social Tech Collaborative is a group of nonprofit, social impac
 permalink: /about/
 ---
 
-**Vision**
-
+#### Vision
 Everyone has the power to access social services with ease and dignity, and service providers have the tools to equitably serve all clients efficiently and effectively.
 
-**Mission**
-
+#### Mission
 We come together to leverage our tech-forward organizations’ perspectives, approaches, and expertise to address structural inequities and barriers in social service delivery.
 
-**Values**
-
+#### Values
 **We demonstrate the value of collaboration.** The work is stronger than if any one organization were to do it alone.  We choose projects that leverage our collaborative approach and our organizational strengths. 
 We create an environment that allows the full participation of all Collaborative partners.  We recognize that people and organizations have different skills to offer, different opinions, and different perspectives. We hold space for dialogue and feedback.
 
